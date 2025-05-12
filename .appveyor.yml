@@ -26,6 +26,3 @@ deploy_script:  # скрипт развёртывания
   - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
   - npx push-dir --dir=dist --branch=gh-pages --force --verbose
 
-  environment:
-  my_variable:
-    secure: 4+1ZVXfd7eu0q4NidqykUV/7yFq8L8StAOTLYm6uq2VnQdfMOCAw7u/XvZr7GBZARg4cSx2sj2ERRyWeQqNtx4aKq51SGYFmwil+hlA3FyWRfKnVdL/iuk9Kp7y7m7L/
